@@ -1,0 +1,2 @@
+# MyDesignPattern
+DesignPattern Example
