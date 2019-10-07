@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp.iteratorpattern_compositepattern.iteratorpattern.Menu;
+package dp.iteratorpattern_compositepattern.iteratorpattern2.Menu;
 
-import dp.iteratorpattern_compositepattern.iteratorpattern.iterator.DinerMenuIterator;
-import dp.iteratorpattern_compositepattern.iteratorpattern.iterator.Iterator;
+import dp.iteratorpattern_compositepattern.iteratorpattern2.Menu.MenuItem;
+import dp.iteratorpattern_compositepattern.iteratorpattern2.iterator.DinerMenuIterator;
+import java.util.Iterator;
 
 /**
  *
  * @author bill
  */
-public class DinerMenu {
+public class DinerMenu implements Menu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
@@ -36,10 +37,7 @@ public class DinerMenu {
         }
     }
     
-//    public MenuItem[] getMenuItems() {
-//        return menuItems;
-//    }
-    
+    @Override
     public Iterator createIterator() {
         return new DinerMenuIterator(menuItems);
     }

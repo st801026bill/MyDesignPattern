@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp.iteratorpattern_compositepattern.iteratorpattern.iterator;
+package dp.iteratorpattern_compositepattern.iteratorpattern1.iterator;
 
-import dp.iteratorpattern_compositepattern.iteratorpattern.Menu.MenuItem;
+import dp.iteratorpattern_compositepattern.iteratorpattern1.iterator.Iterator;
+import dp.iteratorpattern_compositepattern.iteratorpattern1.Menu.MenuItem;
 import java.util.ArrayList;
 
 /**

@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp.iteratorpattern_compositepattern.iteratorpattern.iterator;
+package dp.iteratorpattern_compositepattern.iteratorpattern2.iterator;
 
-import dp.iteratorpattern_compositepattern.iteratorpattern.Menu.MenuItem;
+import dp.iteratorpattern_compositepattern.iteratorpattern2.Menu.MenuItem;
+import java.util.Iterator;
 
 /**
  *
@@ -32,6 +33,19 @@ public class DinerMenuIterator implements Iterator {
             return false;
         } else {
             return true;
+        }
+    }
+    
+    //2. 改成 import java.util.Iterator; 並實踐remove()方法
+    @Override
+    public void remove() {
+        if(position <= 0)
+            throw new IllegalStateException("無法執行remove()，請確認至少要一筆資料");
+        if(items[position-1] != null) {
+            for(int i=position-1; i<items.length-1; i++) {
+                items[i] = items[i+1];
+            }
+            items[items.length-1] = null;
         }
     }
 }
