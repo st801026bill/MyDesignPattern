@@ -1,7 +1,7 @@
 # MyDesignPattern
 DesignPattern Example
 
-1:策略模式\n
+1:策略模式<br>
 2:觀察者模式
 3:裝飾者模式
 4:工廠模式
