@@ -12,7 +12,7 @@ import dp.iteratorpattern_compositepattern.iteratorpattern1.Waitress;
 /**
  *
  * @author bill
- * 自訂 Iterator
+ * 自訂 Iterator interface
  */
 public class TestIteratorPattern1 {
     public static void main(String[] args) {
