@@ -47,7 +47,7 @@ public class TestDesignPattern {
             System.out.println(" 7:轉接器模式");
             System.out.println(" 8:表象模式");
             System.out.println(" 9A:樣板方法模式, 9B:樣板方法模式(Hook), 9C:樣板方法模式(CompareTo!?)");
-            System.out.println(" 10A:反覆器模式(自訂), 10B:反覆器模式(import jdk), 10C:反覆器模式(Hashtable iterator)");
+            System.out.println(" 10A:反覆器模式(自訂), 10B:反覆器模式(import jdk), 10C:反覆器模式(Hashtable iterator), ");
             System.out.print("請輸入代號:");
             String mode = sc.nextLine();
             System.out.println("----------------------------------------");
