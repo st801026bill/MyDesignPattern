@@ -29,7 +29,7 @@ public class Waitress {
         
         System.out.println("菜單\n----\n早餐");
         printMenu(pancakeIterator);
-        System.out.println("午餐");
+        System.out.println("晚餐");
         printMenu(dinerIterator);
     }
     

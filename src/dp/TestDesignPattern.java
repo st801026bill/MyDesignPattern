@@ -15,6 +15,7 @@ import dp.facadepattern.TestFacadePattern;
 import dp.factorypattern.TestFactoryPatternByAbsFactory;
 import dp.factorypattern.TestFactoryPatternByFactory;
 import dp.factorypattern.TestFactoryPatternBySimple;
+import dp.iteratorpattern_compositepattern.TestCompositepattern1;
 import dp.iteratorpattern_compositepattern.TestIteratorPattern1;
 import dp.iteratorpattern_compositepattern.TestIteratorPattern2;
 import dp.iteratorpattern_compositepattern.TestIteratorPattern3;
@@ -47,7 +48,7 @@ public class TestDesignPattern {
             System.out.println(" 7:轉接器模式");
             System.out.println(" 8:表象模式");
             System.out.println(" 9A:樣板方法模式, 9B:樣板方法模式(Hook), 9C:樣板方法模式(CompareTo!?)");
-            System.out.println(" 10A:反覆器模式(自訂), 10B:反覆器模式(import jdk), 10C:反覆器模式(Hashtable iterator)");
+            System.out.println(" 10A:反覆器模式(自訂), 10B:反覆器模式(import jdk), 10C:反覆器模式(Hashtable iterator), 10D:合成模式");
             System.out.print("請輸入代號:");
             String mode = sc.nextLine();
             System.out.println("----------------------------------------");
@@ -91,6 +92,8 @@ public class TestDesignPattern {
                 case "10B": TestIteratorPattern2.main(args);
                     break;
                 case "10C": TestIteratorPattern3.main(args);
+                    break;
+                case "10D": TestCompositepattern1.main(args);
                     break;
                 case "0":
                     return;
