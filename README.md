@@ -11,3 +11,4 @@ DesignPattern Example
 8:表象模式<br>
 9:樣板方法模式<br>
 10:反覆器模式<br>
+11:狀態模式<br>
