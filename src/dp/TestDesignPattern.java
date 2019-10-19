@@ -22,6 +22,9 @@ import dp.iteratorpattern_compositepattern.TestIteratorPattern2;
 import dp.iteratorpattern_compositepattern.TestIteratorPattern3;
 import dp.observerpattern.TestObserverPatternByCustom;
 import dp.observerpattern.TestObserverPatternByJava;
+import dp.proxypattern.TestProxyPattern1;
+import dp.proxypattern.TestProxyPattern2_1;
+import dp.proxypattern.TestProxyPattern2_2;
 import dp.singletonpattern.TestSingletonPattern;
 import dp.statepattern.TestStatePattern1;
 import dp.statepattern.TestStatePattern2;
@@ -53,6 +56,7 @@ public class TestDesignPattern {
             System.out.println(" 9A:樣板方法模式, 9B:樣板方法模式(Hook), 9C:樣板方法模式(CompareTo!?)");
             System.out.println(" 10A:反覆器模式(自訂), 10B:反覆器模式(import jdk), 10C:反覆器模式(Hashtable iterator), 10D:合成模式(基本樹狀結構), 10E:合成反覆器(重要!!10E)");
             System.out.println(" 11A:狀態模式(基本), 11B:狀態模式(加入新狀態)");
+            System.out.println(" 12A: 代理人模式(基本), 12B:代理人模式(Server), 12C:代理人模式(Client)");
             System.out.print("請輸入代號:");
             String mode = sc.nextLine();
             System.out.println("----------------------------------------");
@@ -104,6 +108,12 @@ public class TestDesignPattern {
                 case "11A": TestStatePattern1.main(args);
                     break;
                 case "11B": TestStatePattern2.main(args);
+                    break;
+                case "12A": TestProxyPattern1.main(args);
+                    break;
+                case "12B": TestProxyPattern2_1.main(args);
+                    break;
+                case "12C": TestProxyPattern2_2.main(args);
                     break;
                 case "0":
                     return;
