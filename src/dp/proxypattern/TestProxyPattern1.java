@@ -12,6 +12,7 @@ import java.rmi.Naming;
 /**
  *
  * @author bill
+ * 代理人模式: 讓某個物件具有一個替申，藉以控制外界對此物件的接觸
  */
 public class TestProxyPattern1 {
     public static void main(String[] args) {
